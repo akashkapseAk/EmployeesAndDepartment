@@ -1,0 +1,15 @@
+server:
+  port: 4632
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hibernatemapping
+    username: root
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
